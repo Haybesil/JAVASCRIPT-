@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  
+    <script>
+    
+   let countNew = 0; 
+    if (countNew <= 50) {
+   
+   function myLoop() {
+      document.getElementById("count").innerHTML = countNew += 1;
+    }
+       } else {
+         document.getElementById("count").innerHTML = countNew = newCount -=1;
+         
+       }
+
+  let newCount = 0;
+  if (newCount <=50) {
+
+   function myNew() {
+       document.getElementById("count").innerHTML = newCount -= 1;
+   }
+  }
+    
+
+  // let int = document.getElementById('countUp');
+  // let integer = 0;
+
+  // add.addEventListener('click', function() {
+  //   integer += 1;
+  //   int.innerHTML = integer;
+  //   if(integer >=50) {
+  //     integer = 49;
+  //   }
+  // })
+
+   </script>
+
+    <style>
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+      
+      body {
+        background: url('400274300834_14965.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      
+          .container {
+          width: 600px;
+          height: 490px ;
+          margin-top: 4rem;
+          padding-top: 4%;
+          padding-bottom: 4%;
+          background: url('400274300834_14965.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+      		border-radius: 10px;
+          position: relative;
+          left: 27%;
+          top: 50%;
+          border-style: solid;
+          border-color: white;
+          border-width: 3px;
+          }
+
+         div.col-11 {
+            margin-left: 0;
+          }
+      
+      
+      .row {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+        }
+      
+        h1 {
+          color: white;
+          margin-left: 10.5rem;
+          font-size: 3rem;
+          margin-top: 0;
+        }
+      
+        div.box button {
+          display: block;
+      		/* margin-left: 6rem;*/
+          color: white;
+      			background: #0a0a3f; 
+      			box-shadow: 2px 4px 13px 5px rgba(0,0,0,0.69);
+            border-radius: 5px;
+        }
+      
+      	button.count1 {
+      		 margin-top: 1rem;
+           margin-left: 14.2rem;
+           border: none;
+           width: 9.5rem;
+           height: 2.5rem;
+           border-radius: 2px;
+           font-size: 1rem;
+      		}
+      
+      	button.count2 {
+        margin-top: 1.5rem;
+        margin-left:15rem;
+        border: none;
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 1rem;
+        }
+      
+       /*div.container {
+        position: relative;
+        left: 40%;
+        top: 50%;
+        }*/
+      
+       div.box {
+        border: white;
+        }
+       
+ 			  div.counter {
+         color: black;
+				 
+				 font-size: 18rem;
+			   margin-left: 10rem; 
+    }
+       
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-11">
+          <div class="box">
+            <h1>COUNTER</h1>
+            <div id= "count" class= "counter">0</div>
+            <button onclick="myNew()" id="countUp" class="count1">LOWER COUNT</button>
+            <button onclick="myLoop()" id="countDown" class="count2">ADD COUNT</button>
+									
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!--
+Visual Code Mobile
+Developed By Manish Nirmal
+App Available on Play Store :-
+https://play.google.com/store/apps/details?id=lk.visual.code.mobile
+YouTube :-
+https://youtube.com/ManishNirmal
+-->
